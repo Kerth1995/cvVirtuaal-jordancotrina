@@ -1,0 +1,34 @@
+.nav__item--portfolio{
+    color: #ff014f !important;
+}
+
+.projects{
+    padding: 3rem 3rem;
+}
+
+.project{
+    padding: 1.5rem 1.5rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #ff014f;
+    border-radius: 1.6rem;
+    margin: 1rem 1rem;
+}
+
+.project__title{
+    color: #3EB75E;
+}
+
+.project__viewInformation{
+    margin: 1rem auto;
+    padding: 1rem 3rem;
+    border-radius: 0.8rem;
+    border: solid 0.2rem #c4cfde;
+    background-color: #1BA1F2;
+    color: #ff014f;
+}
+
+.project__viewInformation:hover{
+    background-color: #6441A3;
+    color: #ffffff;
+}

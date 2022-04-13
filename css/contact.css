@@ -1,0 +1,12 @@
+.nav__item--contact{
+    color: #ff014f !important;
+}
+
+.formulario__send{
+    margin: 1rem auto;
+    padding: 1rem 3rem;
+    border-radius: 0.8rem;
+    border: solid 0.2rem #c4cfde;
+    background-color: #6441A3;
+    color: #ffffff;
+}

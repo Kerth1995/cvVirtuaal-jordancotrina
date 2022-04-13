@@ -1,0 +1,13 @@
+.experiencies{
+    overflow-y: auto;
+    max-height: 600px;
+    background-color: #ff014f;
+}
+
+.subtitle{
+    text-decoration: underline;
+}
+
+.nav__item--resume{
+    color: #ff014f !important;
+}

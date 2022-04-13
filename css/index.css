@@ -1,0 +1,343 @@
+/*Inicio Header*/
+.nav__item--index{
+    color: #ff014f !important
+}
+/*Fin Header*/
+
+/*Inicio Informacion*/
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 4.5rem;
+}
+
+.information__left--tittle{
+    display: block;
+    color: var(--color-body-white);
+    font-weight: 500;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.information__left--greet{
+    color: #1e2125;
+    font-weight: 600;
+    font-size: 6rem;
+    line-height: 7.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 2.2rem 0;
+}
+
+.information__left--greet span{
+    color:#ff014f
+}
+
+.information__left--decription{
+    color: #3c3e41;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    padding-right: 16%;
+    opacity: 0.9;
+    margin-bottom: 142px
+}
+
+.information__networks--title{
+    text-transform: uppercase;
+    color: #1e2125;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
+}
+
+.information__networks--icons{
+    margin-left: -5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.information__networks--icons li{
+    list-style-type: none;
+}
+
+.facebook--icon{
+    margin: 1rem 1.2rem;
+    font-size: 1.8rem;
+}
+
+.icon{
+    margin: 1rem 1.2rem;
+    text-align: center;
+
+    font-size: 1.8rem;
+    line-height: 1.50;
+}
+
+.icon a{
+    box-shadow: 0.5rem 0.5rem 1.5rem #D1D9E6, -0.5rem -0.5rem 1.5rem #ffffff;
+    background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+    display: inline-block;
+    width: 6rem;
+    height: 6rem;
+    line-height: 6rem;
+    text-align: center;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    border-radius: 0.6rem;
+    transition: 0.4s;
+    
+}
+
+.icon a svg{
+   color: #3c3e41; 
+   transition: 0.4s;
+   width: 2rem;
+   vertical-align: middle;
+}
+
+.icon a:hover{
+    transform: translateY(-0.3rem);
+    background-color: #ff014f;
+}
+
+.information__right{
+    padding: 0 1.rem;
+    ;
+}
+
+.information__right--main{
+    box-shadow: 0.5rem 0.5rem 1.5rem #D1D9E6, -0.5rem -0.5rem 1.5rem #ffffff;
+    text-align: center;
+    padding: 0 0;
+    width: 50rem;
+    height: 70.7rem
+}
+
+.information__right--main img{
+    width: 99%;
+}
+
+/*Fin Informacion*/
+
+.feature__information{
+    margin: 4rem 1rem 1rem 1rem;
+    padding: 5rem 4rem 6rem 4rem;
+    height: 30.44rem;
+    width:  40.45rem;
+
+    box-shadow: 0.5rem 0.5rem 1.5rem #D1D9E6, -0.5rem -0.5rem 1.5rem #ffffff;
+    background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+    border-radius: 1.6rem;
+    display: inline-block;
+}
+
+.feature__information:hover{
+    background-color: #f9004d;
+}
+
+.feature__title{
+    font-size: 1.4rem;
+    color: #f9004d;
+    letter-spacing: 0.2rem;
+    display: block;
+    line-height: 1.4rem;
+    font-weight: 500;
+}
+
+.feature__subTitle{
+    color: #3c3e41;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+.feature__information__icon svg{
+    width: 5rem;
+    height: auto;
+    color: #ff014f;
+}
+
+.feature__information .feature__information__icon svg:hover{
+    color: #ffffff;
+}
+
+.feature__detail{
+    text-align: left;
+}
+
+.feature__detail--title{
+    line-height: 3.2rem;
+    margin-bottom: 2rem;
+}
+
+.feature__detail--title a{
+    text-decoration: none;
+    color: #1e2125;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+}
+
+.feature__detail--information{
+    color: #3c3e41;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    margin-bottom: 2.2rem;
+    transition: 0.4s;
+}
+
+/*PORTFOLIO*/
+
+.portfolio__information{
+    margin: 4rem 1rem 1rem 1rem;
+    padding: 5rem 4rem 6rem 4rem;
+    height: 44.44rem;
+    width:  40.45rem;
+
+    box-shadow: 0.5rem 0.5rem 1.5rem #D1D9E6, -0.5rem -0.5rem 1.5rem #ffffff;
+    background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+    border-radius: 1.6rem;
+    display: inline-block;
+}
+
+.portfolio__header{
+    text-align: center;
+}
+
+.portfolio__header--title{
+    font-size: 1.4rem;
+    color: #f9004d;
+    letter-spacing: 0.2rem;
+    display: block;
+    line-height: 1.4rem;
+    font-weight: 500;
+}
+
+.portfolio__header--subTitle{
+    color: #3c3e41;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+.portfolio__information__img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.6rem;
+}
+
+.portfolio__detail--title{
+    font-size: 1.4rem;
+    color: #f9004d;
+    letter-spacing: 0.2rem;
+    display: block;
+    line-height: 1.4rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.portfolio__information--view{
+    margin-top: 2rem;
+    font-size: 2.4rem;
+    line-height: 0rem;
+    color: #1e2125;
+
+}
+
+/*EXPERIENCIE*/
+.eperiencie__header{
+    text-align: center;
+}
+
+.eperiencie__header--title{
+    font-size: 1.4rem;
+    color: #f9004d;
+    letter-spacing: 0.2rem;
+    display: block;
+    line-height: 1.4rem;
+    font-weight: 500;
+}
+
+.eperiencie__header--subTitle{
+    color: #3c3e41;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+.menu__items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*
+.actividad{
+    margin-top: 5rem;
+    
+    text-align: left;
+    padding: 3.5rem 50rem 3.5rem 5rem;
+}
+
+.actividad__card{
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+}
+
+.actividad__card__icon{
+    margin-bottom: 2.9rem;
+    transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+    transform: translateY(20px);
+}
+
+.actividad__card__icon svg{
+    width: 5rem;
+    height: auto;
+    color: #ff014f;
+    stroke-width: 1 !important;
+
+    font-family: 'feather' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+
+    vertical-align: middle
+}
+
+.actividad__card__content{
+    transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+    transform: translateY(20px);
+}
+
+.actividad__card__content--title{
+    color: #1e2125;
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 3.2rem;
+    margin-bottom: 2rem;
+}
+
+.actividad__card__content--description{
+    color: #3c3e41;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    margin-bottom: 2.2rem;
+    transition: 0.4s;
+}
+*/
